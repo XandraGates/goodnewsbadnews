@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>GoodsNews BadNews</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand important-col" href="#">News</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link important-col" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link important-col" href="#">Sport</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link important-col" href="#">Business</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link important-col" href="#">Politics</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link important-col" href="#">Science & Tech</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link important-col" href="#">Entertainment</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<br />
+<h1 class="display-1 news" align="center">Filter Top Stories</h1>
+<br />
+<div class="row">
+  <div class="col">
+
+  </div>
+  <div class="col">
+    <div class="container">
+<button type="button" class="btn btn-lg btn-light" onclick="goodNews()">Good News</button> &nbsp
+<button type="button" class="btn btn-lg btn-dark" onclick="badNews()">Bad News</button>
+</div>
+</div>
+<div class="col">
+
+</div>
+</div>
+<br />
+<hr />
+<br />
+
+
+<!--Top Stories-->
+
+<div class="row">
+
+  <div class="col col-lg">
+<div class="container text-center" id="card-deck">
+<div class="card">
+  <div class="card-head">
+    <h1 class="display-5" id="title">Multi-millionaire Landowner's SHOCKING Proposal</h1>
+    <h4 id="date">28 January 1813</h4>
+    </div>
+  <div class="card-body">
+    <img src="images/proposal.png" id="first-img" class="news-img" />
+    <br /><br />
+    <p id="desc">No one saw the heir to Pemberley Estate, Fitzwilliam Darcy's proposal to Elizabeth Bennett coming - not even Elizabeth herself! Last Spring, an unnamed source reported that the two had parted on bad terms. Now their wedding is set to happen in the Summer of this year.</p>
+    <a href="#" class="read">Read More</a>
+    </div>
+  <div class="card-footer">
+    <p id="location">Hertfordshire</p>
+    </div>
+  </div>
+  </div>
+  </div>
+
+<div class="col col-lg">
+  <div class="container text-center">
+  <div class="card">
+    <div class="card-head">
+      <h1 class="display-5" id="title2">Explorer Found Alive After Shipwreck - Discovers Island</h1>
+      <h2 id="date2">28 October 1726</h2>
+      </div>
+    <div class="card-body">
+      <img src="images/island.png" class="news-img" id="second-img" />
+      <br /><br />
+      <p id="desc2">Nautical Explorer, Lemuel Gulliver, was presumed deceased after his ship was discovered wrecked on the East Coast three years ago. He returned last Thursday with news of an undiscovered island, Lilliput, populated by a civilisation of "little people".</p>
+      <a href="#" class="read">Read More</a>
+      </div>
+    <div class="card-footer">
+      <p id="location2">UK-wide</p>
+      </div>
+    </div>
+    </div>
+    </div>
+
+
+    <div class="col col-lg">
+    <div class="container text-center">
+    <div class="card">
+    <div class="card-head">
+      <h1 class="display-5" id="title3">The Best Dressed At Gatsby's Summer Gala '25</h1>
+      <h2 id="date3">10 April 1925</h2>
+      </div>
+    <div class="card-body">
+      <img src="images/gatsby.png" class="news-img" id="third-img" />
+      <br /><br />
+      <p id="desc3">Gatsby's Summer Gala was the best yet, guests say. Louisville Socialite Daisy Buchanan became the talk of the evening, wearing a beaded evening dress designed by Coco Chanel and T-strap heels. Rumour has it, she has caught the eye of Gatsby himself.</p>
+      <a href="#" class="read">Read More</a>
+      </div>
+    <div class="card-footer">
+      <p id="location3">Long Island, US</p>
+      </div>
+    </div>
+    </div>
+    </div>
+
+    </div>
+
+<div>
+  <br />
+</div>
+
+<!--Footer-->
+
+
+
+<script src="news.js"></script>
+  </body>
+</html>

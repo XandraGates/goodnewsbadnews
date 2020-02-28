@@ -1,0 +1,65 @@
+:root {
+  --text-color: black;
+  --bg-color: white;
+  --nav: white;
+}
+
+/* Navigation */
+.navbar {
+  background-color: var(--nav);
+}
+.important-col {
+  color: var(--text-color)!important;
+}
+
+.important-col:hover {
+  border-bottom: 1px solid white;
+  font-weight: 800;
+}
+
+/*title*/
+.button-contain {
+  width: 40%;
+}
+#gn-btn {
+  margin-right: 1rem;
+}
+
+.read {
+  color: black;
+  border-bottom: 1px solid black;
+}
+
+.read:hover {
+  color: white;
+  border-color: white;
+  text-decoration: none;
+}
+
+/*news articles */
+.news {
+  color: var(--text-color);
+}
+
+.card {
+  background-color: var(--bg-color);
+}
+
+.card:hover {
+  background-color: lightgrey;
+  color: black;
+}
+
+.display-5 {
+  padding: 5%;
+}
+
+
+body {
+  color: var(--text-color);
+}
+
+
+.news-img{
+  width: 70%;
+}
